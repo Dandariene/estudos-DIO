@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Display flex</title>
+    <style>
+        .flex{
+            max-width: 300px;
+            padding: 10px;
+            border: 2px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: aqua;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <!-- Para criar um elemento de mesma classe posso usar o atalho "div.item*3" onde div é o elemento, item é o nome da classe e 83 é o número de vezes que quero que replica aquele código -->
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+</body>
+</html>
