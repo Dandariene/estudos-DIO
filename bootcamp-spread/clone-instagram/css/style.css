@@ -1,0 +1,192 @@
+:root{
+    --azul-padrao: #0095f6;
+    --cor-borda: lightgray;
+    --cor-de-fundo: rgb(243,243,243);
+    --cor-fontes: rgb(143, 143, 143);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-height: 100%;
+    background-color: var(--cor-de-fundo);
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+    padding: 3px;
+}
+
+.sessoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 70px;
+    width: 80%;
+}
+
+.sessoes .apps .baixar-app{
+    padding: 5px;
+}
+
+.celular{
+    width: 430px;
+}
+
+.logo-instagram{
+    width: 160px;
+}
+
+.foto-perfil{
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+    margin: 20px 0;
+}
+
+.tela-login{
+    border: 1px solid var(--cor-borda);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    padding: 45px 0 30px 0;
+    width: 130%;
+}
+
+.tela-login .login{
+    background-color: var(--azul-padrao);
+    padding: 5px 12px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+}
+
+.tela-login .logout{
+    background-color: white;
+    padding: 8px 30px;
+    margin-top: 12px;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    color: var(--azul-padrao);
+    font-weight: 600;
+}
+.cadastro{
+    border: 1px solid var(--cor-borda);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    color: var(--cor-fontes);
+    align-items: center;
+    margin: 20px 10px;
+    padding: 20px 0 20px 0;
+    width: 130%;
+}
+
+.btn-cadastro{
+    display: flex;
+    align-items: center;
+}
+
+.muda-conta{
+    text-align: center;
+    color: var(--azul-padrao);
+    padding: 2px 5px;
+    font-weight: 600;
+}
+
+.baixar-app{
+    width: 130px;
+}
+
+.apps{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 0 130px 0 130px ;
+    font-weight: 100;
+    padding: 30px 0 ;
+
+}
+
+.footer footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer div a{
+    color: var(--cor-fontes);
+    line-height: 30px;
+    padding: 4px;
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.footer div p,
+.footer div span{
+    color: var(--cor-fontes);
+    line-height: 30px;
+    padding: 4px;
+    font-size: 14px;
+    font-weight: 450;
+    margin-top: 15px;
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: white;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .celular {
+        display: none;
+    }
+
+    .sessoes {
+        width: 90%;
+    }
+    
+    .tela-login{
+        border: 1px solid transparent;
+    }
+
+    .cadastro{
+        border: 1px solid transparent;
+    }
+}
+
+
