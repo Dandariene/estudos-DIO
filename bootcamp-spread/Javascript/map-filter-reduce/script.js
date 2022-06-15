@@ -48,3 +48,4 @@ const nums3 = [1, 2, 3, 7, 8, 12, 13, 51, 24, 83, 15, 20]
 console.log(filtraPares(nums3))
 
 //Reduce
+
