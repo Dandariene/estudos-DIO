@@ -49,3 +49,45 @@ console.log(filtraPares(nums3))
 
 //Reduce
 
+//atividade 1
+function somaNumeros(array){
+   return array.reduce(function(prev, current){
+        return prev + current
+    })
+}
+
+const array = [1, 2]
+
+console.log(somaNumeros(array))
+
+
+// atividade 2
+
+const lista = [
+    {
+        name: 'batata',
+        preco: 5,
+    },
+    {
+        name: 'maca',
+        preco: 6,
+    },
+    {
+        name: 'pera',
+        preco: 7,
+    },
+    {
+        name: 'uva',
+        preco: 9,
+    }
+]
+
+const saldoDisp =  100
+
+function calculaSaldo(saldoDisp, lista){
+    return lista.reduce(function(prev, current){
+        return prev - current.preco
+    }, saldoDisp)
+}
+
+console.log(calculaSaldo(saldoDisp, lista))
