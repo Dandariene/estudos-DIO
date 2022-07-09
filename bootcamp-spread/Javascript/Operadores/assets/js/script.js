@@ -35,3 +35,5 @@ function criaFrase2(num1, num2){
 }
 
 console.log(comparaNumeros(2,2))
+
+
