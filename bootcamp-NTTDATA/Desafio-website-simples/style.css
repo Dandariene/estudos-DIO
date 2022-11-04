@@ -1,0 +1,48 @@
+body {
+    max-width: 850px;
+    margin: 50px 200px 50px 200px;
+    background-color: rgb(223, 221, 221);
+}
+
+img {
+    width: 800px;
+}
+
+h1 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: rgb(238, 120, 24);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.imghtml {
+    width: 500px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+blockquote {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: rgb(238, 120, 24);
+}
+
+mark {
+    background-color: rgb(252, 174, 111);
+}

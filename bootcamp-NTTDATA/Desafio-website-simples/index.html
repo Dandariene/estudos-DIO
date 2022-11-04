@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com HTML - Desafio de projeto DIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <img src="https://th.bing.com/th?q=HTML+Wallpaper+HD&dc=3&w=100&h=100&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=pt-BR&cc=BR&setlang=pt-br&adlt=strict&t=1&mw=247"
+        alt="imagem com tag e simbolo do html">
+    <h1><mark>Módulo 1 </mark>- Primeiros passos com <abbr title="Linguagem de Marcação de Hipertexto">HTML</abbr> </h1>
+    <hr />
+    <h2 id="indice">Índice</h2>
+    <hr>
+    <ul>
+        <li> <a href="#evolucao">Evolução dos computadores</a> </li>
+        <li> <a href="#client">O que são Clients</a> </li>
+        <li> <a href="#servers">O que são Servers</a> </li>
+        <li> <a href="#estrutura">Como é uma estrutura básica de HTML?</a> </li>
+        <li> <a href="#listas"> Entendendo as diferenças entre listas ordenadas e não ordenadas</a></li>
+        <li> <a href="#referencia">Links de referência</a> </li>
+    </ul>
+    <h2 id="evolucao"> <u> Evolução</u> dos computadores <a href="#refEvolucao"><sup>1</sup></a></h2>
+    <hr>
+    <p>
+        Pesquisas feitas recentemente revelam que houve um aumento considerável no número de pessoas que possuem
+        computador em casa. Poucos sabem sobre o processo de evolução dos computadores, até chegar aos modelos modernos
+        de tecnologia de ponta dos dias atuais. A seguir a evolução cronológica dos computadores:
+    </p>
+    <p>
+        <strong>- 1946:</strong> é anunciada a criação do primeiro computador digital eletrônico de grande escala do
+        mundo, o ENIAC
+        (Electrical Numerical Integrator and Calculator).
+    </p>
+    <p>
+        <strong>- 1951 a 1959:</strong> surgem os computadores de primeira geração. Esses eram capazes de calcular com
+        uma velocidade de
+        milésimos de segundo, além de serem programados em linguagem de máquina.
+    </p>
+    <p>
+        <strong>- 1959 a 1965: </strong> surgem os computadores de segunda geração, com capacidade de calcular com uma
+        velocidade de
+        microssegundos, sendo programados em linguagem montadora.
+    </p>
+    <p>
+        <strong>- 1965 a 1975:</strong> nascem os computadores da terceira geração. Esses computadores passam a ter
+        diversos componentes
+        miniaturizados e montados em um único CHIP, sendo capazes de calcular em nanossegundos, com uma linguagem de
+        programação de alto nível, orientada para os procedimentos.
+    </p>
+    <p>
+        <strong>- 1975 a 1981:</strong> são criados os computadores da quarta geração. Seguindo a tendência da terceira
+        geração de
+        miniaturização de seus componentes e o aperfeiçoamento dos seus Circuitos Integrados (CI). As linguagens
+        utilizadas nessa geração eram de altíssimo nível, orientada para um problema.
+    </p>
+    <p>
+        <strong>- 1990:</strong> a partir dessa década são lançados softwares de melhor qualidade e com capacidade de
+        processar as
+        informações com maior rapidez.
+    </p>
+    <p>
+        <strong>- 2000:</strong> após a virada do milênio os computadores continuaram a seguir a tendência de
+        miniaturização de seus
+        componentes e, tornando dessa forma os computadores mais maleáveis e práticos nas tarefas diárias. Além disso,
+        há um investimento maciço em seu design.
+    </p>
+    <a href="#indice">Voltar</a>
+    <h2 id="client">O que são <u> Clients</u> <a href="#refClient"><sup>2</sup></a> </h2>
+    <hr>
+    <p>
+        É o cliente (Client) quem sempre inicia a comunicação com o servidor. <br>
+
+        O cliente mais conhecido é o navegador. <br>
+
+        Quando acessamos um site pelo navegador, uma requisição é disparada pela internet para o computador no qual esse
+        site está hospedado. <br>
+
+        Chamamos as aplicações que agem em nome do usuário, assim como o navegador, de <code>user-agent</code> . <br>
+    </p>
+    <a href="#indice">Voltar</a>
+    <h2 id="servers">O que são <u> Servers</u> <a href="#refClient"><sup>2</sup></a> </h2>
+    <hr>
+    <p>
+        O papel do servidor web é receber uma requisição e devolver uma resposta para o cliente. <br>
+
+        Geralmente o servidor não envia dados se o cliente não disparar primeiro uma requisição. <br>
+
+        O servidor é um ou mais computadores com um único endereço como http://www.devmedia.com.br. Nestes computadores
+        podem ser hospedados documentos, imagens, áudio, vídeo, etc. <br>
+
+        Geralmente o servidor também hospeda programas que atendem as requisições dos clientes e as processam. Chamamos
+        esses programas de web server, ou servidor web. <br>
+
+        É com um web server que nos comunicamos, sendo o computador no qual ele está instalado parte da infraestrutura
+        que o conecta a internet. <br>
+    </p>
+    <a href="#indice">Voltar</a>
+    <h2 id="estrutura">Como é uma <u>estrutura</u> básica de HTML? <a href="#refEstrutura"><sup>3</sup></a> </h2>
+    <hr>
+    <p>
+        O documento HTML sempre inicia com o que chamamos de estrutura básica. Esta estrutura é quase que imutável.
+        Sempre será dessa forma e você sempre, sempre começará seu HTML começando por esse código. Geralmente os
+        editores como o Sublime Text já tem atalhos para iniciar os documentos HTMLs com essa estrutura, logo, você não
+        precisa se preocupar em decorá-la, mas é bom que faça. Veja abaixo como ela se inicia:
+    </p>
+    <img class="imghtml"
+        src="https://matheuswebdesigner.com.br/wp-content/uploads/2020/04/confira-a-estrutura-basica-do-html.jpg"
+        alt="imagem de um código em HTML básico">
+    <p>
+        É possível compreender o documento em HTML de uma maneira muito simples, através de uma divisão de blocos das
+        tags essenciais, conforme a a seguinte estrutura:
+    <ol>
+        <li>Definição do documento <sub>(doctype)</sub></li>
+        <li>Cabeça <sub>(Head)</sub> </li>
+        <li>Corpo <sub> (Body)</sub></li>
+    </ol>
+    </p>
+    <a href="#indice">Voltar</a>
+    <h2 id="listas">Entendendo as diferenças entre <u> listas ordenadas</u> e <u> não ordenadas</u> <a
+            href="#refListas"><sup>4</sup></a> </h2>
+    <hr>
+    <p>
+        A principal diferença entre a lista ordenada e a lista não-ordenada está na maneira com que os itens de cada
+        lista são apresentados - a lista ordenada enumera os elementos; a lista não-ordenada coloca marcadores antes de
+        cada elemento.
+    </p>
+    <a href="#indice">Voltar</a>
+    <h2 id="referencia">Links de referência</h2>
+    <hr>
+    <p><sup>1</sup> -
+        <a id="refEvolucao" href="https://mundoeducacao.uol.com.br/informatica/evolucao-dos-computadores.htm"
+            target="_blank">Mundo
+            Educação - Evolução dos computadores</a>
+    </p>
+    <p><sup>2</sup> -
+        <a id="refClient"
+            href="https://www.devmedia.com.br/http-cliente-e-servidor/41215#:~:text=Cliente.%20%C3%89%20o%20cliente%20quem%20sempre%20inicia%20a,usu%C3%A1rio%2C%20assim%20como%20o%20navegador%2C%20de%20user-agent%20."
+            target="_blank">DevMedia - HTTP: Cliente e Servidor</a>
+    </p>
+    <p><sup>3</sup> -
+        <a id="refEstrutura" href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html"
+            target="_blank">
+            https://tableless.github.io/iniciantes/ - HTML - Estrutura básica </a>
+    </p>
+    <p><sup>4</sup> -
+        <a id="refListas"
+            href="http://www.nce.ufrj.br/ginape/cursohtml/conteudo/listas/ordenada.htm#:~:text=A%20principal%20diferen%C3%A7a%20entre%20a,marcadores%20antes%20de%20cada%20elemento."
+            target="_blank">Lista ordenada e lista não ordenada</a>
+    </p>
+</body>
+<blockquote cite="https://www.pensador.com/frase/MTcyMjYwOA/">
+    <p>
+        A excelência é o resultado gradual de sempre se esforçar para fazer <del>muito</del> melhor.
+    </p>
+</blockquote>
+<footer>
+    <p>Desenvolvido por
+        <a href="https://github.com/Dandariene" target="_blank"><small>Dandariene Braz</small> </a>
+    </p>
+</footer>
+
+
+</html>
