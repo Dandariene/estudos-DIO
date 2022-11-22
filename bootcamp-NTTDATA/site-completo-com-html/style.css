@@ -142,15 +142,58 @@ table thead th {
 
 .content p {
     font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.content {
+    display: flex;
 }
 
 
 .content img {
-    width: 30px;
+    width: 470px;
+}
+
+.content-contatos {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+}
+
+input {
+    width: 380px;
+    height: 25px;
+    margin: 2px;
+
+}
+
+textarea {
+    width: 380px;
+    height: 80px;
+}
+
+button {
+    padding: 2px;
+    margin: 1px;
+    font-size: 12px;
+}
+
+.content-contatos img {
+    width: 80px;
+    padding: 10px;
 }
 
 .content iframe {
-    width: 400px;
+    width: 500px;
     height: 300px;
 }
 
